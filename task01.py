@@ -2,18 +2,33 @@ def calculate_percentage(total_marks, num_subj):
     return total_marks / num_subj
 
 def calculate_grade(percentage):
+
+#     if percentage >= 90:
+#         print("A+")
+#     elif percentage >= 80:
+#         print("A")
+#     elif percentage >= 70:
+#         print("B")
+#     elif percentage >= 60:
+#         print("C")      
+#     elif percentage >= 50:
+#         print("D")
+#     else:
+#         print("F")
+
     if percentage >= 90:
-        print("A+")
+        return "A+"
     elif percentage >= 80:
-        print("A")
+        return "A"
     elif percentage >= 70:
-        print("B")
+        return "B"
     elif percentage >= 60:
-        print("C")
+        return "C"
     elif percentage >= 50:
-        print("D")
+        return "D"
     else:
-        print("F") 
+        return "F"
+
 
 # Student Grade Calculator
 
