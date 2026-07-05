@@ -27,6 +27,6 @@ def bubble_sort(arr):
     return arr
 
 
-arr = [11,2,4,8,5,6,7,3,9,10]
+arr = [4,5,5,1,9,8,7,2,3,65,21,87,54,216,7,-4]
 sorted_arr = bubble_sort(arr)
 print(sorted_arr)
