@@ -20,8 +20,8 @@ n3.next=n4
 n4.next=n5
 n5.next=n6
 n6.next=n7
-newNode.next=n1    #
-n1=newNode
+newNode.next=n1    #give direction to the n1
+n1=newNode         #we store newNode to n1
 current=n1
 while current:
     print(current.data,end="--->")

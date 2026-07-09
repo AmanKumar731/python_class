@@ -1,7 +1,7 @@
 print("--Q1:-Given a number n, print the multiplication table from 1 to 10 for n in a single line, separated by spaces.")
 n=int(input("Enter a number to print its multiplication table: "))
 for i in range (1, 11):
-    print(n*i, end=" ")
+    print(n*i,end="")
 
 
 
